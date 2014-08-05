@@ -2,10 +2,47 @@
 <html>
 <head>
 	<title>GDH</title>
+	<style type="text/css">
+		a {
+			color: red;
+		}
+		a.foo {
+			color: blue;
+		}
+		a.bar {
+			color: green;
+		}
+		a.foo.bar {
+			color: yellow;
+		}
+		h1 {
+			font-size: 20px;
+			border-bottom: 1px solid #ccc;
+		}
+		p, span {
+			padding: 10px;			
+		}
+		p.papayaWhip {
+			background-color: papayaWhip;
+		}
+		span {
+			background-color: #eee;
+			border: 5px solid #888;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin: 20px;
+		}
+	</style>
+		}
 </head>
 <body>
 	<h1>Hello <em>World</em>! </h1>
-	<p>THis is GDH ! :-)</p>
+	<p class="papayaWhip">THis is GDH ! :-)</p>
+	<p><span>THis is GDH ! :-)</span></p>
+	<a href="#" class="no">no</a><br>
+	<a href="#" class="foo">foo</a><br>
+	<a href="#" class="foo bar">foo bar</a><br>
+	<a href="#" class="bar">bar</a><br>
 </body>
 </html>
 
